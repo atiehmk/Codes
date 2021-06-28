@@ -1,1 +1,1 @@
-Academic projects and assignments codes
+Academic projects and assignments code
