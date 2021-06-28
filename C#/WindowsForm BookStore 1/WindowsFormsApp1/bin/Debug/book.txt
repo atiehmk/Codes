@@ -1,0 +1,4 @@
+C++ for dummies, Alex Smith, 1234 , 25.00
+C# for dummies, John Alen, 4567, 24.00
+Java for dummies, Sara Joe, 7891, 23.00
+Python for dummies, Jim Brian, 4321, 22.00
