@@ -1,0 +1,3 @@
+Brian,Smith,123 Sun Drive,San Diego,California,12345,879-890-4567,bsmith@gmail.com
+Sara,Alex,125 B Street,San Diego,California,12345,878-888-7809,salex@gmail.com
+Sam,Brown,145 A Street,San Diego,California,12456,768-888-6789,sbrown@gmail.com

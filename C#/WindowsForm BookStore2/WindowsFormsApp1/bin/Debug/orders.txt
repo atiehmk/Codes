@@ -1,0 +1,4 @@
+C# for dummies, John Alen, 4567,$24.00,2,$52.80,$4.80,$48.00
+Python for dummies, Jim Brian, 4321,$22.00,5,$121.00,$11.00,$110.00
+C++ for dummies, Alex Smith, 1234 ,$25.00,1,$27.50,$2.50,$25.00
+Java for dummies, Sara Joe, 7891,$23.00,4,$101.20,$9.20,$92.00
