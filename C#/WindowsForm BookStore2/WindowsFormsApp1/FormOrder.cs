@@ -1,8 +1,6 @@
-﻿/***
-Atiehalsadat Kashanimoghaddam
-RED ID: 817365647
-COMPE 561 
-Lab 5
+/***
+Atieh Kashani
+
  ***/
 using System;
 using System.Collections.Generic;
