@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GlacierPoint.master.cs" Inherits="WebApplication6.GlacierPoint" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+    <!-- Header -->
+    <div class="Header">
+      <asp:Image id="Image1" runat="server"
+          ImageUrl="~/Images/GlacierPoint.jpg" Width="339" Height="90"
+          AlternateText="The GlacierPoint Company Intranet" />
+	<h1>GlacierPoint.com</h1>
+    </div>
+    <!-- Menu -->
+    <div class="Menu">
+      <asp:SiteMapDataSource id="glacierPointSiteMap" runat="server"
+          ShowStartingNode="false" />
+      <asp:Menu id="glacierPointMenu" runat="server"
+          DataSourceID="glacierPointSiteMap">
+        <StaticItemTemplate>
+          <img src="Images/Book_Closed.gif" alt="+"
+              width="16" height="16" style="border-width: 0;" />
+          <%# Eval("Text")%>
+        </StaticItemTemplate>
+      </asp:Menu>
+    </div>
+    <!-- Content -->
+    <div class="Content">
+      <asp:ContentPlaceHolder id="ContentPlaceHolder1"
+          runat="server" />
+    </div>
+  </form>
+</body>
+
+</html>
