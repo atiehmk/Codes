@@ -1,7 +1,4 @@
-﻿/* COMPE 561
- * Lab 4
-* Atiehalsadat Kashanimoghaddam
-* RED ID: 817365647
+﻿/* 
 * Customer Form for Adding a new customer and save existing customer updated information.
 * When the save button is pressed, the program should make sure that none of the text boxes are left blank, 
 * Use regular expressions to ensure the first name, last name, address, city, state, zip code, phone, and email are valid.
