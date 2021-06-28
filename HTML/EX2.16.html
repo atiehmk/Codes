@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Exercise 2.16 -->
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Exercise 2.16</title>
+   </head>
+
+   <body>
+      <h1>University Campus Visit Feedback Form</h1>
+      <p>Please fill out this form about your campus visit</p>
+
+      <form action = "http://www.deitel.com" method = "post">
+
+         <p><label>Name:
+               <input name = "Name" type = "text" size = "30">
+            </label></p>
+         <p><label>E-mail:
+               <input name = "Email" type = "text" size = "30">
+            </label></p>
+
+         <p>
+            <strong>What did you like most about the campus?</strong><br>
+
+            <ul>
+            <li><input type="checkbox" name="camp">Campus</li>
+            <li><input type="checkbox" name="camp">Students</li>
+            <li><input type="checkbox" name="camp">Location</li>
+            <li><input type="checkbox" name="camp">Atmosphere</li>
+            <li><input type="checkbox" name="camp">Dorm Rooms</li>
+            <li><input type="checkbox" name="camp">Sports</li>
+            </ul>
+         </p>
+
+         <p>
+            <strong>How did you became interested in this college?</strong><br>
+
+            <ul>
+            <li><input type="radio" name="iu">Friends</li>
+            <li><input type="radio" name="iu">Television</li>
+            <li><input type="radio" name="iu">Internet</li>
+            <li><input type="radio" name="iu">Other</li>
+            </ul>
+
+         <p><label>Comments:<br>
+               <textarea name = "comments" rows = "5" cols = "40"
+                  placeholder = "Enter your comments here..."></textarea>
+            </label></p>
+
+         <p>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Reset">
+         </p>
+      </form>
+   </body>
+</html>
